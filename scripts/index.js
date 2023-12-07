@@ -106,7 +106,7 @@ document.querySelector(".cardCart-conteiner-head-01").style.display = 'none';
 const addProductListCart = () =>{
     const span = document.getElementById('quntProdAddCart');
     const conteiner__cart = document.querySelector(".cardCart-conteiner-head-01");
-    conteiner__cart.style.justfyContent = 'end';
+    conteiner__cart.style.justifyContent = 'end';
     if(conteiner__cart.style.display === 'none'){
         span.style.display = 'flex';
         quantProdSpan += 1;
@@ -134,7 +134,7 @@ const addProductListCart = () =>{
 const loopAddProductard = () =>{
     const articleCart = document.querySelector(".cardCart-conteiner-head-01");
     const conteiner__cart = document.querySelector(".cardCart-conteiner-head-01");
-    conteiner__cart.style.justfyContent = 'end';
+    conteiner__cart.style.justifyContent = 'end';
     articleCart.innerHTML = '';
     for (let index = 0; index < listProductCart.length; index++) {
         articleCart.innerHTML += 
