@@ -176,9 +176,11 @@ const dellProductListCart = (parmButton) =>{
     loopAddProductard();
     if(conteiner__cart.innerHTML === ''){
         conteiner__cart.innerHTML = 
-        `<h2 class="menssageCartVaz">
+        `<div class="conteiner__menssager__cart">
+            <h2 class="menssageCartVaz">
             Your cart is empty
-        </h2>`;
+            </h2>
+        </div>`;
     }
 }
 // fim function dellProductListCart
