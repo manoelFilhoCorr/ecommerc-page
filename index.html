@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Ecormmece-page</title>
+</head>
+<body>
+    <main class="main">
+        <section class="section-img">
+            <section class="section-img-click">
+                <button onclick="activeImg()" class="buttonCloseSection-img">
+                    <img src="images/icon-close.svg" alt="icon-close" class="icon-close">
+                </button>
+                <div class="conteiner-img">
+                    <button onclick="translateImgClick('reverss')" class="buttonTrocImg bntImg1"><</button>
+                    <img src="images/image-product-1.jpg" alt="img-product" id="img-product-02" class="img-product">
+                    <button onclick="translateImgClick('progress')" class="buttonTrocImg bntImg2">></button>
+                </div>
+                <div class="conteiner-imgs-opcoes-product">
+                    <button class="button-conteiner-imgs-pcoes-product">
+                        <img src="images/image-product-1-thumbnail.jpg" alt="imgs-button-conteiner-imgs-pcoes-product" class="imgs-button-conteiner-imgs-pcoes-product">
+                    </button>
+                    <button class="button-conteiner-imgs-pcoes-product">
+                        <img src="images/image-product-2-thumbnail.jpg" alt="imgs-button-conteiner-imgs-pcoes-product" class="imgs-button-conteiner-imgs-pcoes-product">
+                    </button>
+                    <button class="button-conteiner-imgs-pcoes-product">
+                        <img src="images/image-product-3-thumbnail.jpg" alt="imgs-button-conteiner-imgs-pcoes-product" class="imgs-button-conteiner-imgs-pcoes-product">
+                    </button>
+                    <button class="button-conteiner-imgs-pcoes-product">
+                        <img src="images/image-product-4-thumbnail.jpg" alt="imgs-button-conteiner-imgs-pcoes-product" class="imgs-button-conteiner-imgs-pcoes-product">
+                    </button>
+                </div>
+            </section>
+        </section>
+        <section class="section-conteiner-menu">
+            <div class="conteiner-section-conteiner-menu">
+                <div class="conteiner-conteiner-links-conteiner-header">
+                    <button onclick="activeMenu()" class="button-menu">
+                        <img src="images/icon-close.svg" alt="icon-button-menu-close" class="icon-button-menu">
+                    </button>
+                    <div class="conteinerLinks">
+                        <a href="" class="links-conteiner-header">Collections</a>
+                        <a href="" class="links-conteiner-header">Men</a>
+                        <a href="" class="links-conteiner-header">Women</a>
+                        <a href="" class="links-conteiner-header">About</a>
+                        <a href="" class="links-conteiner-header">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <header class="header">
+            <div class="conteiner-header-01">
+                <button onclick="activeMenu()" class="button-menu">
+                    <img src="images/icon-menu.svg" alt="icon-button-menu" class="icon-button-menu">
+                </button>
+                <div class="conteiner-img-logo">
+                    <img src="images/logo.svg" alt="img-logo" class="img-logo">
+                </div>
+                <div class="conteiner-links-conteiner-header">
+                    <a href="" class="links-conteiner-header">Collections</a>
+                    <a href="" class="links-conteiner-header">Men</a>
+                    <a href="" class="links-conteiner-header">Women</a>
+                    <a href="" class="links-conteiner-header">About</a>
+                    <a href="" class="links-conteiner-header">Contact</a>
+                </div>
+            </div>
+            <div class="conteiner-header-02">
+                <button onclick="activCart()" class="button-conteiner-header-02">
+                    <span id="quntProdAddCart">0</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: hsl(219, 9%, 45%);"><path d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></svg>
+                </button>
+                <img src="images/image-avatar.png" alt="img-user-conteiner-header-02" class="img-user-conteiner-header-02">
+            </div>
+            <article class="cardCart-conteiner-head-01">
+                <h2 class="menssageCartVaz">
+                    Your cart is empty
+                </h2>
+                <div class="conteiner-dados-product">
+                    
+                </div>
+            </article>
+        </header>
+        <section class="section-01">
+            <section class="section-01-section-01">
+                <div class="conteiner-actImg">
+                    <button onclick="translateImgClick('reverss')" class="buttonTrocImgII bI-1"><</button>
+                    <img onclick="activeImg()" src="images/image-product-1.jpg" alt="img-product" id="img-product" class="img-product">
+                    <button onclick="translateImgClick('progress')" class="buttonTrocImgII bI-2">></button>
+                </div>
+                <div class="conteiner-imgs-opcoes-product">
+                    <button onclick="tralateImg(0)" id="button-conteiner-imgs-pcoes-product-0" class="button-conteiner-imgs-pcoes-product">
+                        <img src="images/image-product-1-thumbnail.jpg" alt="imgs-button-conteiner-imgs-pcoes-product" class="imgs-button-conteiner-imgs-pcoes-product">
+                    </button>
+                    <button onclick="tralateImg(1)" id="button-conteiner-imgs-pcoes-product-1" class="button-conteiner-imgs-pcoes-product">
+                        <img src="images/image-product-2-thumbnail.jpg" alt="imgs-button-conteiner-imgs-pcoes-product" class="imgs-button-conteiner-imgs-pcoes-product">
+                    </button>
+                    <button onclick="tralateImg(2)" id="button-conteiner-imgs-pcoes-product-2" class="button-conteiner-imgs-pcoes-product">
+                        <img src="images/image-product-3-thumbnail.jpg" alt="imgs-button-conteiner-imgs-pcoes-product" class="imgs-button-conteiner-imgs-pcoes-product">
+                    </button>
+                    <button onclick="tralateImg(3)" id="button-conteiner-imgs-pcoes-product-3" class="button-conteiner-imgs-pcoes-product">
+                        <img src="images/image-product-4-thumbnail.jpg" alt="imgs-button-conteiner-imgs-pcoes-product" class="imgs-button-conteiner-imgs-pcoes-product">
+                    </button>
+                </div>
+            </section>
+            <section class="section-02-section-01">
+                <div class="conteiner-01-section-02-section-01">
+                    <h4 class="subtitleSub-conteiner-01-section-02-section-01">
+                        SNEAKER COMPANY
+                    </h4>
+                    <H2 class="subtitle-conteiner-01-section-02-section-01">
+                        Fall Limited Edition Sneakers
+                    </H2>
+                </div>
+                <div class="conteiner-02-section-02-section-01">
+                    <p class="descricao-conteiner-02-section-02-section-01">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Debitis reiciendis ratione maiores dolorem ad vitae fugit voluptatum sint, 
+                        harum dolores quasi sed nostrum ipsam corporis, soluta quae minima assumenda tenetur.
+                    </p>
+                    <div class="conteiner-01-conteiner-02-section-02-section-01">
+                        <div class="conteiner-conteiner-01-conteiner-02-section-02-section-01">
+                            <span class="valorProduct-conteiner-01-conteiner-02-section-02-section-01">
+                                $125.00
+                            </span>
+                            <span class="descontProct-conteiner-01-conteiner-02-section-02-section-01">
+                                50%
+                            </span>
+                        </div>
+                        <div class="conteiner-02-conteiner-02-section-02-section-01">
+                            <span class="valorDescontProduct-conteiner-02-conteiner-02-section-02-section-01">
+                                $250.00
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteiner-03-section-02-section-01">
+                    <div class="conteiner-quntProduct-conteiner-03-conteiner-03-section-02-section-01">
+                        <button onclick="quantProduct('r')" class="button-conteiner-quantProduct-conteiner-03-conteiner-03-section-02-section-01">
+                            -
+                        </button>
+                        <span class="quantProduct-conteiner-03-conteiner-03-section-02-section-01">
+                            1
+                        </span>
+                        <button onclick="quantProduct('p')" class="button-conteiner-quantProduct-conteiner-03-conteiner-03-section-02-section-01">
+                            +
+                        </button>
+                    </div>
+                    <button onclick="addProductListCart()" class="button-conteiner-03-section-02-section-01">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></svg>                        
+                        Add to cart
+                    </button>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/listProduct.js"></script>
+</body>
+</html>
