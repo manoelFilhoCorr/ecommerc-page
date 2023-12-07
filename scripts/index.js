@@ -133,6 +133,8 @@ const addProductListCart = () =>{
 // inicio function loopAddProductListCart
 const loopAddProductard = () =>{
     const articleCart = document.querySelector(".cardCart-conteiner-head-01");
+    const conteiner__cart = document.querySelector(".cardCart-conteiner-head-01");
+    conteiner__cart.style.justfyContent = 'end';
     articleCart.innerHTML = '';
     for (let index = 0; index < listProductCart.length; index++) {
         articleCart.innerHTML += 
@@ -175,6 +177,7 @@ const dellProductListCart = (parmButton) =>{
     listProductCart.splice(parmButton, 1);
     loopAddProductard();
     if(conteiner__cart.innerHTML === ''){
+        conteiner__cart.style.justfyContent = 'center';
         conteiner__cart.innerHTML = 
         `<h2 class="menssageCartVaz">
             Your cart is empty
