@@ -177,7 +177,7 @@ const dellProductListCart = (parmButton) =>{
     listProductCart.splice(parmButton, 1);
     loopAddProductard();
     if(conteiner__cart.innerHTML === ''){
-        conteiner__cart.style.justfyContent = 'center';
+        conteiner__cart.style.justifyContent = 'center';
         conteiner__cart.innerHTML = 
         `<h2 class="menssageCartVaz">
             Your cart is empty
