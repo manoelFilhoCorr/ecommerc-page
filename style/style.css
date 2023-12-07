@@ -150,6 +150,13 @@
     height: 250px;
     margin-top: 400px;
 }
+.conteiner__menssager__cart{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
 .menssageCartVaz{
     position: absolute;
     color: var(--Grayishblue);
