@@ -136,6 +136,7 @@
     flex-direction: column;
     text-align: left;
     align-items: center;
+    justify-content: end;
     position: absolute;
     box-shadow: 0 0  2px var(--Verydarkblue);
     background-color: var(--Paleorange);
